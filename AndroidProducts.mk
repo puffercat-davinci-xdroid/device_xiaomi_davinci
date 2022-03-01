@@ -5,8 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/potato_davinci.mk
+    $(LOCAL_DIR)/xdroid_davinci.mk
 
 COMMON_LUNCH_CHOICES := \
-    potato_davinci-userdebug \
-    potato_davinci-eng
+    xdroid_davinci-user \
+    xdroid_davinci-userdebug \
+    xdroid_davinci-eng
